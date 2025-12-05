@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ffa86439f9e77b9a01e6018624260083",
+    "content-hash": "4de6528e24f57c720220e486a3306ce0",
     "packages": [
         {
             "name": "brick/math",
@@ -455,59 +455,6 @@
                 "source": "https://github.com/web-push-libs/web-push-php/tree/v9.0.3"
             },
             "time": "2025-11-13T17:14:30+00:00"
-        },
-        {
-            "name": "nextcloud/ocp",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/p1gp1g/nextcloud-ocp.git",
-                "reference": "6fb1d2e805e9c3c26ac8e7abb0ac4f772d50a805"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/p1gp1g/nextcloud-ocp/zipball/6fb1d2e805e9c3c26ac8e7abb0ac4f772d50a805",
-                "reference": "6fb1d2e805e9c3c26ac8e7abb0ac4f772d50a805",
-                "shasum": ""
-            },
-            "require": {
-                "php": "~8.1 || ~8.2 || ~8.3 || ~8.4",
-                "psr/clock": "^1.0",
-                "psr/container": "^2.0.2",
-                "psr/event-dispatcher": "^1.0",
-                "psr/log": "^3.0.2"
-            },
-            "provide": {
-                "psr/clock": "^1.0",
-                "psr/container": "^2.0.2",
-                "psr/event-dispatcher": "^1.0",
-                "psr/log": "^3.0.2"
-            },
-            "default-branch": true,
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "33.0.0-dev"
-                }
-            },
-            "license": [
-                "AGPL-3.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Christoph Wurst",
-                    "email": "christoph@winzerhof-wurst.at"
-                },
-                {
-                    "name": "Joas Schilling",
-                    "email": "coding@schilljs.com"
-                }
-            ],
-            "description": "Composer package containing Nextcloud's public OCP API and the unstable NCU API",
-            "support": {
-                "source": "https://github.com/p1gp1g/nextcloud-ocp/tree/master"
-            },
-            "time": "2025-12-05T10:46:42+00:00"
         },
         {
             "name": "psr/http-client",
@@ -1101,6 +1048,59 @@
                 "source": "https://github.com/bamarni/composer-bin-plugin/tree/1.8.3"
             },
             "time": "2025-11-24T19:20:55+00:00"
+        },
+        {
+            "name": "nextcloud/ocp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/p1gp1g/nextcloud-ocp.git",
+                "reference": "6fb1d2e805e9c3c26ac8e7abb0ac4f772d50a805"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/p1gp1g/nextcloud-ocp/zipball/6fb1d2e805e9c3c26ac8e7abb0ac4f772d50a805",
+                "reference": "6fb1d2e805e9c3c26ac8e7abb0ac4f772d50a805",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~8.1 || ~8.2 || ~8.3 || ~8.4",
+                "psr/clock": "^1.0",
+                "psr/container": "^2.0.2",
+                "psr/event-dispatcher": "^1.0",
+                "psr/log": "^3.0.2"
+            },
+            "provide": {
+                "psr/clock": "^1.0",
+                "psr/container": "^2.0.2",
+                "psr/event-dispatcher": "^1.0",
+                "psr/log": "^3.0.2"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "33.0.0-dev"
+                }
+            },
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Wurst",
+                    "email": "christoph@winzerhof-wurst.at"
+                },
+                {
+                    "name": "Joas Schilling",
+                    "email": "coding@schilljs.com"
+                }
+            ],
+            "description": "Composer package containing Nextcloud's public OCP API and the unstable NCU API",
+            "support": {
+                "source": "https://github.com/p1gp1g/nextcloud-ocp/tree/master"
+            },
+            "time": "2025-12-05T10:46:42+00:00"
         }
     ],
     "aliases": [],
