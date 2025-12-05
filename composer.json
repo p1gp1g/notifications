@@ -17,6 +17,9 @@
 		"bamarni/composer-bin-plugin": "^1.8",
 		"nextcloud/ocp": "dev-master"
 	},
+	"provide": {
+		"psr/clock": "^1.0"
+	},
 	"config": {
 		"optimize-autoloader": true,
 		"classmap-authoritative": true,
