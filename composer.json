@@ -56,6 +56,9 @@
 			"classmap_prefix": "Notifications_",
 			"packages": [
 				"minishlink/web-push"
+			],
+			"excluded_packages": [
+						"psr/clock"
 			]
 		}
 	}
